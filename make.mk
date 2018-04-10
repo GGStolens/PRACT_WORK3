@@ -1,6 +1,6 @@
 CC=g++
 FLAGS=-c -std=c++14 -Wall -Werror
-NAME = pract2
+NAME = task5
 MAIN = main
 FILE_1 = figures
 

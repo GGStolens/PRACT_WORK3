@@ -27,7 +27,7 @@ int main() {
 			check = check_inside(_circle, p);
 		}
 	}
-	else if (polygon == "rectangle") {
+	else if (polygon == "quadrangle") {
 		Quadrangle p;
 		p.num_vertex = 4;
 		std::cout << "Enter the coordinates of quadrangle" << std::endl;
