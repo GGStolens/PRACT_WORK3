@@ -6,7 +6,7 @@
 
 int check_inside(Circle & c, Polygon & p) {
 	int touch = 0;
-	for (int i = 0; i < 4; ++i) {
+	for (int i = 0; i < p.num_vertex; ++i) {
 		double length = std::sqrt((p.vertex[i].first - c.center.first) * (p.vertex[i].first - c.center.first)
 						+ (p.vertex[i].second - c.center.second) * (p.vertex[i].second - c.center.second));
 		if (length > c.radius)
